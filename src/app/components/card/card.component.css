@@ -1,0 +1,12 @@
+.card-container {
+  /*height: 100%;*/
+  min-height: 120px;
+  display: flex;
+  height: 100px;
+  flex-direction: column;
+}
+
+.more {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,17 @@
+<mat-card class="card-container">
+  <mat-card-title>
+    {{item.API}}
+  </mat-card-title>
+  <mat-card-content>
+    <span>{{item.Description}}</span>
+    <a href="{{item.Link}}" target="_blank">View Docs</a>
+    <section>
+      <div class="more">
+        <span *ngIf="item.Category">{{item.Category}}</span>
+        <ng-container *ngIf="item.HTTPS">
+          <span>HTTPS</span>
+        </ng-container>
+      </div>
+    </section>
+  </mat-card-content>
+</mat-card>

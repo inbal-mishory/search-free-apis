@@ -1,0 +1,15 @@
+:host {
+  grid-column: 1 / -1;
+  background: #c5cae7;
+}
+
+h2 {
+  text-align: center;
+}
+
+.search-container {
+  margin: 0 auto;
+  width: 48%;
+  display: flex;
+  gap: 0.5rem;
+}

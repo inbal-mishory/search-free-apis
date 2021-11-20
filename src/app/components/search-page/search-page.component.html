@@ -1,0 +1,7 @@
+<main class="search-page-container">
+  <app-header></app-header>
+  <app-filter></app-filter>
+  <section class="api-list">
+    <app-card *ngFor="let api of apisList" [item]="api"></app-card>
+  </section>
+</main>

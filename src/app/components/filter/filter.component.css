@@ -1,0 +1,9 @@
+:host {
+  grid-column: 1/2;
+  padding: 1em;
+  background: #fff;
+}
+.filter-container {
+  display: flex;
+  flex-direction: column;
+}
